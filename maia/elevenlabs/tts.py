@@ -3,7 +3,7 @@ import logging
 
 from elevenlabs import generate, play, set_api_key
 
-from settings import ELEVENLABS_API_KEY
+from settings import ELEVENLABS_API_KEY, ELEVENLABS_VOICE_ID, ELEVENLABS_MODEL
 
 set_api_key(ELEVENLABS_API_KEY)
 
@@ -13,8 +13,8 @@ def text_to_speech(text: str, instant_play: bool = True):
 
     audio = generate(
         text=text,
-        voice="uEuXjNuI2n5T5bNFGO1m",
-        model="eleven_multilingual_v2" # or eleven_monolingual_v1
+        voice=ELEVENLABS_VOICE_ID,
+        model=ELEVENLABS_MODEL
     )
 
     if instant_play:

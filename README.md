@@ -74,6 +74,8 @@ OPENAI_API_KEY="<your-openai-api-key>"
 
 # Elevenlabs
 ELEVENLABS_API_KEY="<your-elevenlabs-api-key>"
+ELEVENLABS_VOICE_ID="<your-voice-id>"
+ELEVENLABS_MODEL="eleven_multilingual_v2"
 
 # Google
 GOOGLE_STT_API_KEY="<google-api-key-to-use-speech-recognition>"
