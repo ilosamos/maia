@@ -1,0 +1,18 @@
+{
+  "accessory_ltpk": "68f050d6ccf35d5faf0f15e9a10ffa2432aa5ebf59cc8f0c578aa17842cafeca",
+  "accessory_ltsk": "cfaeac1f1c45d957be57ed316448a4eb5806a96223dc9f621f722407cf7ad365",
+  "accessory_pairing_id": "12:00:00:00:00:00",
+  "accessory_pin": "031-45-154",
+  "c#": 4,
+  "category": "Switch",
+  "host_ip": "192.168.0.130",
+  "host_port": 8080,
+  "name": "MyAccessory",
+  "peers": {
+    "BB2999EE-F102-48C4-8113-39AC24ABF982": {
+      "admin": true,
+      "key": "2378b0e753e62610a8a3734868c6df9c541342487b2b11b7d94c08403ad50536"
+    }
+  },
+  "unsuccessful_tries": 0
+}

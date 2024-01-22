@@ -1,0 +1,10 @@
+__pycache__
+venv
+firebase-admin-creds.json
+playground.ipynb
+playground.py
+config.py
+*client-secret.json
+token.json
+.env
+maia/zoho
