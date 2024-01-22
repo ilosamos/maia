@@ -3,7 +3,7 @@
   "accessory_ltsk": "cfaeac1f1c45d957be57ed316448a4eb5806a96223dc9f621f722407cf7ad365",
   "accessory_pairing_id": "12:00:00:00:00:00",
   "accessory_pin": "031-45-154",
-  "c#": 4,
+  "c#": 5,
   "category": "Switch",
   "host_ip": "192.168.0.130",
   "host_port": 8080,

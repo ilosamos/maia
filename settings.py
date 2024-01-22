@@ -17,6 +17,8 @@ OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 
 # Elevenlabs
 ELEVENLABS_API_KEY=os.getenv("ELEVENLABS_API_KEY")
+ELEVENLABS_VOICE_ID=os.getenv("ELEVENLABS_VOICE_ID")
+ELEVENLABS_MODEL=os.getenv("ELEVENLABS_MODEL")
 
 # Google
 GOOGLE_STT_API_KEY=os.getenv("GOOGLE_STT_API_KEY")
@@ -43,6 +45,7 @@ CONFLUENCE_API_EMAIL=os.getenv("CONFLUENCE_API_EMAIL")
 CONFLUENCE_API_TOKEN=os.getenv("CONFLUENCE_API_TOKEN")
 
 # Google credentials need client-secret.json file from google cloud console
+# Uncomment this if you don't use google stuff
 G_CREDENTIALS = get_creds_from_desktop_flow()
 
 # All logging stuff goes here

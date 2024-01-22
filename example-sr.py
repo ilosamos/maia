@@ -1,3 +1,4 @@
+"""This is just some example code copied from the internet to get you started"""
 import time
 import speech_recognition as sr
 import simpleaudio as sa
